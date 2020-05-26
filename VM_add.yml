@@ -12,7 +12,7 @@
       username: "{{ vcenter_user }}"
       password: "{{ vcenter_pass }}"
       validate_certs: no
-      folder: /ha-datacenter/vm/VM datastore/VM
+      folder: ns31201795
       name: Test_001
       state: poweredon 
       guest_id: windows9_64Guest
